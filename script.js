@@ -15,7 +15,7 @@ const newDiv = divNums => {
     container.insertAdjacentElement('afterbegin', div);
   }
 };
-newDiv(130);
+newDiv(45);
 
 // Generate random Color
 const color = function () {
@@ -36,3 +36,5 @@ function displayUI() {
   });
 }
 displayUI();
+
+const btnColor = document.querySelector('.color-container');
